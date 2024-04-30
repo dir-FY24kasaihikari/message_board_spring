@@ -14,7 +14,7 @@ public class MessageService {
     private MessageRepository messageRepository;
 
     /** 全件を検索して返す */
-    public List<Message> getUserList() {
+    public List<Message> getMessageList() {
         // リポジトリのfindAllメソッドを呼び出す
         return messageRepository.findAll();
     }
